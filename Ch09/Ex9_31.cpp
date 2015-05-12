@@ -13,6 +13,7 @@ void duplicateOdd(forward_list<int>& fli){
 			++curr;
 			++prev;
 			++prev;
+			//why prev+=2 is invalid?
 			//prev += 2;
 		}
 	}
